@@ -6,7 +6,7 @@ docker run -d --restart always -p 8090:80 --name sub-web ly88321/sub-web
 ```yaml
 name: sub-web
 services:
-    sub-web-modify:
+    sub-web:
         restart: always
         privileged: false
         ports:
